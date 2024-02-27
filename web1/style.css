@@ -1,0 +1,445 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header  .container #toggler{
+     display: none;
+}
+header .container .fa-bars{
+    font-size: 2rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    border: 0.3 rem solid rgba(0,0, 0, .1);
+    cursor: pointer;
+    display: none;
+}
+.logo{
+    font-style: italic; 
+    font-size: 50px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: 	#A0522D;
+    font-weight: 300;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #A0522D;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color:#DEB887;
+    text-decoration:underline;
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #DEB887	;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #DEB887;
+}
+
+
+/* css codees for hero section starts  */
+
+.hero {
+    
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+    /* background-image: url(https://www.shutterstock.com/image-photo/women-bag-shoulder-260nw-610718831.jpg); */
+    background-image: url(https://s3.r29static.com/bin/entry/cb1/720x480,85/1822524/image.webp); 
+    background-position: center;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    height: 120vh;
+    
+}
+
+
+.hero-content {
+    max-width: 850px;
+    margin: 0 auto;
+   
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #DEB887;
+    margin-bottom: 20px;
+    padding-top: 200px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: transparent;
+    color:  #474440;
+    text-decoration: none;
+    border: solid 1px  #DEB887;;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #DEB887;
+}
+
+
+/* product section starts */
+
+.featured-products {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #A0522D;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 200px;
+    margin: 0 20px 40px;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.product-item .btn {
+    padding: 10px 20px;
+    background-color:#DEB887;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-item .btn:hover {
+    background-color: #A0522D;
+}
+
+/* about us section  */
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DEB887;;
+    margin-bottom: 40px;
+    color: #fff;
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: url(https://img.freepik.com/premium-photo/female-hands-holds-handbag-blue-background-flat-lay-top-view-spring-fashion-concept-pastel-colored_479776-670.jpg);
+    height: 415px;
+    /* background-position: fixed; */
+    /* background-repeat: no-repeat; */
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+
+/* testimonail section */
+
+.testimonials {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    /* color: #333; */
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DEB887;
+    margin-bottom: 40px;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.testimonial-item {
+    width: 300px;
+    margin: 0 20px 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: solid 1px #A0522D;
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    text-align: left;
+    color: #666;
+    margin-bottom: 10px;
+}
+.testimonial-item img{
+    height: 60px;
+    width: 60px;
+  
+}
+
+
+.testimonial-item .customer-name {
+    font-size: 14px;
+    color: #888;
+    padding-bottom: 100px;
+}
+
+.image2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* delivery */
+
+.delivery-and-return {
+    background-color: #f9f9f9;
+    padding: 80px 0px;
+    border: solid 1px grey;
+    /* padding-left: 10px; */
+    text-align: center;
+    
+}
+
+.delivery-and-return h2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: #DEB887; */
+    color:     #DEB887; 
+    margin-bottom: 40px;
+    
+}
+
+.delivery-options,
+.return-policy {
+    margin-bottom: 40px;
+
+}
+
+.delivery-options p,
+.return-policy p {
+    font-size: 16px;
+    text-align: left;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* newsletter */
+
+.newsletter {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DEB887; 
+    color:     #fff; 
+    /* color: #333; */
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #DEB887;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* footer section starts */
+
+#footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+#footer i {
+    color: #DEB887;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.footer-content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+.footer-content h3{
+    color: #DEB887;
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    padding: 10px;
+}
+.contact-info,
+.social-links {
+    flex: 1;
+    
+    margin-right: 40px;
+}
+
+.social-links ul {
+    list-style-type: none;
+    padding: 10px;
+   
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+    
+}
+#footer .social-links  a{
+   text-decoration: none;
+    
+}
+
+.additional-links {
+    margin-top: 20px;
+}
+
+.additional-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.additional-links ul li {
+    margin-bottom: 10px;
+}

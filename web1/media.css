@@ -1,0 +1,204 @@
+/* Media Query for Tablet */
+@media (max-width: 991px) {
+
+    html{
+        font-size: 85%;
+    }
+    html .logo{
+        font-size: 180%;
+        /* margin-left: px; */
+        margin-left: -6px;
+        padding-right: 2px;
+        margin-top: -6px;
+    }
+    header {
+        padding: 2rem;
+    }
+    
+    header .cta{
+        display: flex;
+        flex-wrap: nowrap;  
+     
+    }
+    header .cta a{
+        margin-right: 4px;
+    }
+    section{
+        padding: 2rem;
+    }
+    .hero{
+        background-position: left;
+    }
+}
+
+@media (max-width:768px){
+
+    header .container .fa-bars{
+        display: block;
+        margin-left: -35px;
+    }
+    header .navbar{
+        position: absolute;
+        top:20%; left:0;right: 0;
+        background:#A0522D;
+        /* background:#DEB887; */
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        font-size: 15px;
+        clip-path: polygon(0 0,100% 0, 100% 0,0 0);
+    }
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0,100% 0, 100% 100%,0 100%);
+
+    }
+    header .navbar a{
+        margin: 1.5rem;
+        padding: 1.5rem;
+        background-color: #DEB887;;
+        border: .1rem solid white;
+        display: block;
+    }
+    header .navbar :hover a{
+        color: black;
+        text-decoration: none;
+    }
+    header .logo{
+        font-size: 35px;
+        margin-top: -5px;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .hero {
+        background-size: 100%;
+        margin-top: -130px;
+        margin-bottom: -200px;
+    }
+    .about-us {
+        margin-top: -120px;
+    }
+    .about-us h2{
+        font-size: small;
+        margin-left: -10px;
+        margin-right: 5px;
+        display: block;
+    }
+   .about-content p {
+    font-size: small;
+    justify-content: center;
+   }
+   .about-content {
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .testimonials{
+    margin-top: -90px;
+    margin-bottom: -80px;
+   }
+
+   .testimonials h2{
+    font-size: small;
+        margin-left: -10px;
+        margin-right: 5px;
+        
+   }
+   .delivery-and-return{
+      margin-top: -140px;
+   }
+   .delivery-and-return p{
+    font-size: 14px;
+    /* width: 90%; */
+    /* justify-content: center; */
+   }
+   .delivery-and-return h2{
+    font-size: 20px;
+    display: flex;
+   }
+   .newsletter h2{
+    font-size: small;
+    margin-left: -10px;
+    margin-right: 5px;
+   }
+   .newsletter .newsletter-form{
+    width: 90%;
+   }
+   #footer i{
+    font-size:13px;
+   }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+
+   /* html .delivery-and-return{
+        
+        background-color: aquamarine;
+    } */
+}
+
+
+
+
+
+
+/* @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .container {
+        padding: 20px;
+    }
+    .nav{
+        overflow: hidden;
+    }
+    .logo {
+        font-size: 20px;
+        padding-left: 2px;
+    }
+    .cta .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        
+    }
+} */
+
+/* Media Query for Mobile */
+/* @media only screen and (max-width: 767px) {
+    
+    .container {
+        padding: 10px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .cta .btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+} */
+/* Media Query for Tablet */
+/* @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-content {
+        padding: 50px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+    }
+    .hero-content .btn {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+} */
+
+/* Media Query for Mobile */
+/* @media only screen and (max-width: 767px) {
+    .hero-content {
+        padding: 30px;
+    }
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    .hero-content .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+} */
